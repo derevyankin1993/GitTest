@@ -7,7 +7,7 @@ uses
   Dialogs;
 
 type
-  TForm1 = class(TForm)
+  Tmain = class(TForm)
   private
     { Private declarations }
   public
@@ -15,11 +15,10 @@ type
   end;
 
 var
-  Form1: TForm1;
+  main: Tmain;
 
 implementation
 
 {$R *.dfm}
 
 end.
- 
