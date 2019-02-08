@@ -1,9 +1,9 @@
-object main: Tmain
+object Form1: TForm1
   Left = 192
   Top = 117
-  Width = 604
-  Height = 399
-  Caption = 'main'
+  Width = 928
+  Height = 480
+  Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
