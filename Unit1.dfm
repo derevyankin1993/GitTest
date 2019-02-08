@@ -19,7 +19,7 @@ object main: Tmain
     Top = 32
     Width = 75
     Height = 25
-    Caption = 'button'
+    Caption = 'message'
     TabOrder = 0
     OnClick = Button1Click
   end
@@ -28,7 +28,7 @@ object main: Tmain
     Top = 80
     Width = 75
     Height = 25
-    Caption = 'Button2'
+    Caption = 'open form'
     TabOrder = 1
     OnClick = Button2Click
   end

@@ -23,6 +23,8 @@ var
 
 implementation
 
+uses Unit2;
+
 {$R *.dfm}
 
 procedure Tmain.Button1Click(Sender: TObject);
@@ -34,7 +36,7 @@ end;
 procedure Tmain.Button2Click(Sender: TObject);
 begin
 Application.CreateForm(TForm2, Form2);
-ְשךü2
+Form2.ShowModal;
 end;
 
 end.
