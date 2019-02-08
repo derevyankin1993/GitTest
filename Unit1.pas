@@ -9,7 +9,9 @@ uses
 type
   Tmain = class(TForm)
     Button1: TButton;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -21,12 +23,20 @@ var
 
 implementation
 
+uses Unit2;
+
 {$R *.dfm}
 
 procedure Tmain.Button1Click(Sender: TObject);
 begin
 showmessage('hello GIT');
 close;
+end;
+
+procedure Tmain.Button2Click(Sender: TObject);
+begin
+Application.CreateForm(TForm2, Form2);
+Form2.ShowModal;
 end;
 
 end.
