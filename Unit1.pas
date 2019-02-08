@@ -26,6 +26,7 @@ implementation
 procedure Tmain.Button1Click(Sender: TObject);
 begin
 showmessage('hello GIT');
+close;
 end;
 
 end.
